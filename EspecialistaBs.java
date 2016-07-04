@@ -29,4 +29,8 @@ public class EspecialistaBs extends GenericBs<Especialista> {
         public void imprimirNombre() {
                 System.out.println("Hola soy Miguel Angel Hernandez Duarte.");
         }
+
+public creaEspecialistaLili(){
+		System.out.println("Hola Lilito");
+	}
 }
