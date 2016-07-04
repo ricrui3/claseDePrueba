@@ -25,4 +25,8 @@ public class EspecialistaBs extends GenericBs<Especialista> {
 		especialista.setIdCuenta(cuenta.getIdCuenta());
 		save(especialista);
 	}
+
+	public creaEspecialistaLili(){
+		System.out.println("Hola Lilito");
+	}
 }
