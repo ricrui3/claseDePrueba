@@ -25,4 +25,8 @@ public class EspecialistaBs extends GenericBs<Especialista> {
 		especialista.setIdCuenta(cuenta.getIdCuenta());
 		save(especialista);
 	}
+
+        public void imprimirNombre() {
+                System.out.println("Hola soy Miguel Angel Hernandez Duarte.");
+        }
 }
