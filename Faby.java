@@ -41,18 +41,8 @@ public class GestionarEspecialistaCtrl extends ActionSupport {
 		return "edit";
 	}
 	
-	public String show(){
-		System.err.println(model);
-		return "show";
-	}
-	
 	public String deleteConfirm(){
 		return "deleteConfirm";
-	}
-	
-	public String destroy(){
-		especialistaBs.delete(model);
-		return index();
 	}
 	
 	public String update(){
@@ -85,12 +75,6 @@ public class GestionarEspecialistaCtrl extends ActionSupport {
 		return idSel;
 	}
 
-	public void setIdSel(Integer idSel) {
-		if(idSel != null){
-			model = genericSearchBs.findById(Especialista.class, idSel);
-		}
-		this.idSel = idSel;
-	}
 
 	public List<Especialista> getListEspecialistas() {
 		return listEspecialistas;
