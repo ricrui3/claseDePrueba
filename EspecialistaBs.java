@@ -26,6 +26,12 @@ public class EspecialistaBs extends GenericBs<Especialista> {
 		save(especialista);
 	}
 
+
 	public void claseNuevaFaby(){
 	}
 }
+	public creaEspecialistaLili(){
+		System.out.println("Hola Lilito");
+	}
+}
+
