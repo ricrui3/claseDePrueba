@@ -26,12 +26,19 @@ public class EspecialistaBs extends GenericBs<Especialista> {
 		save(especialista);
 	}
 
-
 	public void claseNuevaFaby(){
+		System.out.println("Holi! owo");
 	}
-}
+
+	public creaEspecialistaLili(){
+		System.out.println("Hola Lilito");
+	}
+
+        public void imprimirNombre() {
+                System.out.println("Hola soy Miguel Angel Hernandez Duarte.");
+        }
+
 	public creaEspecialistaLili(){
 		System.out.println("Hola Lilito");
 	}
 }
-
